@@ -1,0 +1,26 @@
+1) pd.Series(w,name="gg") = used to convert a list,set or dict into tabular form.
+                            parameters like name can be used to name the table.
+                            index parameter can be used to pass index for following table.
+
+2) a.size = this can be used to find the size of the table
+
+3) a.dtype = this can be used to return datatype of the table
+
+4) a.drop_duplicates() = this can be used to remove duplicate values from table
+
+5) a.unique() = this is used to return unique elements from table
+
+6) a.index.is_unique() = used to return index of unique elements from table.
+
+7) a.is_unique = used to return T/F weather following table is unique or not.
+
+8) w.index = used to return index of all elements of the table
+
+9) a.values = used to give all values of the table.
+              slicing and indexing can also be used to give elements.
+
+10) pd.read_csv('subs.csv') = used to read data from csv file to make it dataframe type
+
+11) c.squeeze() = used to convert data from dataframe type form to tabular form
+
+12) a.sample(n) = used to return random value from table
