@@ -31,8 +31,8 @@ print("unique of a :",a.unique())
 print("unique of w :",w.unique())
 
 #Index.is_unique()
-print("index unique A :",a.index.is_unique())
-print("index unique w :",w.index.is_unique())
+# print("index unique A :",a.index.is_unique())
+# print("index unique w :",w.index.is_unique())
 
 #is_unique
 print("index unique A :",a.is_unique)
@@ -43,10 +43,17 @@ print("index a :",a.index)
 print("index w :",w.index)
 
 #values (index can be also provided)(slicing can also be performed)
+print(a.values)
+print(w.values)
 
 
 # subs = pd.read_csv('subs.csv')  [this is used to read data from file present in same folder or other]
+c = pd.read_csv('subs.csv')
+print(c.values)
+print(c.values[241])
+
 # subs.squeeze()    [this is used to convert datta from dataframe mode to normal form]
+c = c.squeeze()
+print(c)
 
 #by default loads as dataframe type and using sqquze canbe converted.
-
