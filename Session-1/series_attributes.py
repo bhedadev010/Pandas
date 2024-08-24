@@ -56,4 +56,6 @@ print(c.values[241])
 c = c.squeeze()
 print(c)
 
+print(a.sample())
+
 #by default loads as dataframe type and using sqquze canbe converted.
