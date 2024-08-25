@@ -59,3 +59,7 @@ print(c)
 print(a.sample())
 
 #by default loads as dataframe type and using sqquze canbe converted.
+
+
+f = pd.read_csv('kohli_ipl.csv')
+print(f)
