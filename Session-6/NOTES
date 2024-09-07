@@ -1,0 +1,9 @@
+1) n.sum(axis=0 or 1) : will return the sum of columns or row depending on axis.
+
+2) n.mean(axis=0 or 1) : will return the mean of columns or row depending on axis.
+
+3) n.var() : will return the variance of the data
+
+4) .iloc() : searches using index position
+
+5) .loc() : searches using index label name
