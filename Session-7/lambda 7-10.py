@@ -1,0 +1,1 @@
+#7) Create a lambda function to reverse a given string.
