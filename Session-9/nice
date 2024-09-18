@@ -1,0 +1,11 @@
+set_index
+reset_index
+rename_column
+rename_index
+unique
+nunique
+.isnull.sum         (will return in bool if sum not give and when sum is given it wil show in proper count format)
+.notnull.sum
+.hasnans
+dropna
+dropna        parameters : axis, how, thresh
